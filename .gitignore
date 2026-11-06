@@ -1,0 +1,137 @@
+# ============================================================
+# StudyGuard AI - Git Ignore
+# ============================================================
+
+# ----------------------------
+# Python cache / bytecode
+# ----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ----------------------------
+# Virtual environments
+# ----------------------------
+.venv/
+.venv312/
+venv/
+env/
+ENV/
+.conda/
+
+# ----------------------------
+# Build / packaging
+# ----------------------------
+build/
+dist/
+*.egg-info/
+.eggs/
+*.spec
+
+# ----------------------------
+# Testing / coverage
+# ----------------------------
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.test_tmp/
+
+# ----------------------------
+# Logs
+# ----------------------------
+*.log
+logs/
+
+# ----------------------------
+# Local databases
+# ----------------------------
+*.sqlite3
+*.sqlite
+*.db
+
+# ----------------------------
+# ML model weights
+# Keep large model files out of Git
+# ----------------------------
+models/*.pt
+models/*.pth
+models/*.onnx
+models/*.engine
+
+assets/models/*.pt
+assets/models/*.pth
+assets/models/*.onnx
+assets/models/*.engine
+
+# ----------------------------
+# User-specific / generated data
+# ----------------------------
+StudyGuardAI/
+
+# Local configuration / secrets
+.env
+.env.*
+!.env.example
+
+# ----------------------------
+# IDE / editor files
+# ----------------------------
+.vscode/
+.idea/
+*.code-workspace
+
+# ----------------------------
+# OS generated files
+# ----------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ----------------------------
+# Temporary files
+# ----------------------------
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# ----------------------------
+# Python tooling
+# ----------------------------
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pytype/
+
+# ----------------------------
+# Jupyter
+# ----------------------------
+.ipynb_checkpoints/
+
+# ----------------------------
+# Local exports / generated output
+# ----------------------------
+outputs/
+output/
+exports/
+screenshots/
+
+# ----------------------------
+# Camera / media generated files
+# ----------------------------
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+
+# ----------------------------
+# OS / application crash dumps
+# ----------------------------
+*.dmp
+*.dump
